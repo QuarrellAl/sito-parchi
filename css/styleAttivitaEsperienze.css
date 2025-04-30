@@ -1,0 +1,117 @@
+header{
+    background-color: rgb(135, 135, 241);
+}
+body{
+    background-color: #D8e4f3;
+}
+
+
+#large{
+  color: #0c6aed;
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  text-decoration: underline;
+}
+
+#medium{
+  color: #0c6aed;
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px; 
+}
+
+#small{
+    color: black;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px; 
+  }
+
+#description{
+  color: black;
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #0c6aed;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 5px;
+    margin-left: 16px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+
+  .undernav {
+    overflow: hidden;
+    background-color: #0c6aed;
+    padding-left: 0px;
+  }
+  
+  .undernav #Privacy {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .undernav #chiSiamo {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .undernav #ParchiItalia {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 40%;
+  }
+  
+  
+  
+  .undernav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+    #separazione{
+        background-color: #0c6aed;
+        
+
+    }   

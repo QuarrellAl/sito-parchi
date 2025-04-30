@@ -1,0 +1,259 @@
+header{
+    background-color: rgb(135, 135, 241);
+}
+body{
+    background-color: #D8e4f3;
+}
+
+h2{
+  color: #0c6aed;
+  padding-left: 100px;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
+#large{
+  color: #0c6aed;
+  padding-left: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  text-decoration: underline;
+}
+
+#medium{
+  color: black;
+  padding-left: 100px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+}
+
+#description{
+  color: black;
+  padding-left: 100px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+#medium1{
+  color: #0c6aed;
+  padding-left: 200px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+#description1{
+  color: black;
+  padding-left: 200px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #0c6aed;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 5px;
+    margin-left: 16px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #cover {
+    width: 1000px;
+    height: auto;
+    margin: 0 ;
+    margin-left: 20%;
+  }
+  
+  #cover > img {
+    border: 2px solid black;
+    width: 45%;
+    margin: 1.66%;
+  }
+  
+  #border{
+    border: 2px solid black;
+    
+  }
+
+.container {
+    position: relative;
+    width: 20%;
+  }
+  
+
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container .btn1 {
+    position: absolute;
+    top: 37%;
+    left: 17%;
+    background-color: #0c6aed;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn2 {
+    position: absolute;
+    top: 37%;
+    right: 15%;
+    background-color: #0c6aed;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .container .btn3 {
+    position: absolute;
+    top: 86%;
+    left: 13%;
+    background-color: #0c6aed;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .container .btn4 {
+    position: absolute;
+    top: 86%;
+    right: 10%;
+    background-color: #0c6aed;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .container2 {
+    position: relative;
+    width: 500px;
+    margin-left: 10%;
+  }
+
+  .container2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  .container .btn1:hover {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  .container .btn2:hover {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  .container .btn3:hover {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  .container .btn4:hover {
+    background-color: #f2f2f2;
+    color: black;
+  }
+
+  
+
+    #aside{
+        display: inline-block;
+        width: 60%;
+        padding-left: 100px;
+
+    }   
+
+    #asideHalf{
+        display: inline-block;
+        width: 50%;
+        float: left;
+    }   
+
+    #separazione{
+        background-color: #0c6aed;
+        
+
+    }   
+
+    .undernav {
+      overflow: hidden;
+      background-color: #0c6aed;
+      padding-left: 0px;
+    }
+    
+    .undernav #Privacy {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .undernav #chiSiamo {
+      float: right;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .undernav #ParchiItalia {
+      float: right;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      margin-right: 40%;
+    }
+    
+    
+    
+    .undernav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
