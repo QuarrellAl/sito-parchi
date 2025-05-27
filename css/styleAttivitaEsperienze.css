@@ -5,6 +5,11 @@ body{
     background-color: #D8e4f3;
 }
 
+#bigButton{
+  font-size: 36px;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
 
 #large{
   color: #0c6aed;

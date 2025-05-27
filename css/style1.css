@@ -5,6 +5,12 @@ body{
     background-color: #D8e4f3;
 }
 
+#bigButton{
+  font-size: 36px;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
 h2{
   color: #0c6aed;
   padding-left: 100px;
