@@ -56,7 +56,8 @@ h2{
 #description1{
   color: black;
   padding-left: 200px;
-  
+  max-width: auto;
+  margin: auto;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
@@ -93,15 +94,17 @@ h2{
   }
   
   #cover {
-    width: 1000px;
+    max-width: 1000px;
+    width: auto;
     height: auto;
     margin: 0 ;
     margin-left: 20%;
+    display: inline-block;
   }
   
   #cover > img {
     border: 2px solid black;
-    width: 45%;
+    width: 80%;
     margin: 1.66%;
   }
   
@@ -115,106 +118,60 @@ h2{
     width: 20%;
   }
   
-
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .column {
+    flex: 20%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
   .container img {
     width: 100%;
     height: auto;
+    display: flex;
+		flex-flow: row wrap;
+		overflow: hidden;
   }
   
-  .container .btn1 {
-    position: absolute;
-    top: 37%;
-    left: 17%;
-    background-color: #0c6aed;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
   
-  .container .btn2 {
-    position: absolute;
-    top: 37%;
-    right: 15%;
-    background-color: #0c6aed;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-
-  .container .btn3 {
-    position: absolute;
-    top: 86%;
-    left: 13%;
-    background-color: #0c6aed;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-
-  .container .btn4 {
-    position: absolute;
-    top: 86%;
-    right: 10%;
-    background-color: #0c6aed;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
 
   .container2 {
     position: relative;
-    width: 500px;
-    margin-left: 10%;
+    max-width: 500px;
+    margin:auto;
   }
 
   .container2 img {
-    width: 100%;
+    max-width: 100%;
+    margin:auto;
     height: auto;
   }
 
   
-  .container .btn1:hover {
-    background-color: #f2f2f2;
-    color: black;
-  }
-  .container .btn2:hover {
-    background-color: #f2f2f2;
-    color: black;
-  }
-  .container .btn3:hover {
-    background-color: #f2f2f2;
-    color: black;
-  }
-  .container .btn4:hover {
-    background-color: #f2f2f2;
-    color: black;
-  }
 
   
 
     #aside{
         display: inline-block;
-        width: 60%;
-        padding-left: 100px;
+        max-width: 100%;
+        width: auto;
+        padding-left: 15%;
 
     }   
 
     #asideHalf{
         display: inline-block;
-        width: 50%;
+        max-width: 50%;
+        width: auto;
         float: left;
+        margin: auto;
     }   
 
     #separazione{
