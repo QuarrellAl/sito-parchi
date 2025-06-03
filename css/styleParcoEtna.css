@@ -2,7 +2,9 @@ header{
   display:flex;
 }
 body{
-    background-color: #D8e4f3;
+  background-color: #D8e4f3;
+  max-width: 80%;
+  margin: auto;
 }
 #bigButton{
   font-size: 4vh;
@@ -101,31 +103,20 @@ font-size: 2vh;
     border: 2px solid black;
   }
 
-  .container {
-    position: relative;
-    max-width: 100%;
-    margin-left: 10%;
+
+
+  .Immagine{
+    display: flex;
+    justify-content: center;
   }
   
 
-  .container img {
-    width: 95%;
+  .Immagine img {
+    width: 50%;
     height: auto;
   }
 
-    #aside{
-        display: inline-block;
-        max-width: 100%;
-        padding-left: 5%;
-
-    }   
-
-    #asideHalf{
-        display: inline-block;
-        width: 50%;
-        float: left;
-        
-    }   
+    
 
 
     .undernav {

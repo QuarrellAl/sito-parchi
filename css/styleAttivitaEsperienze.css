@@ -2,7 +2,9 @@ header{
   display:flex;
 }
 body{
-    background-color: #D8e4f3;
+  background-color: #D8e4f3;
+  max-width: 80%;
+  margin: auto;
 }
 
 #bigButton{
