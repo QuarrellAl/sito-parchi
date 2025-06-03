@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(135, 135, 241);
+  display:flex;
 }
 body{
     background-color: #D8e4f3;
@@ -9,6 +9,8 @@ body{
   font-size: 4vh;
   padding-top: 0%;
   padding-bottom: 0%;
+  color: #f2f2f2;
+  text-decoration: none;
 }
 
 h2{
@@ -60,25 +62,27 @@ h2{
 }
 
 .topnav {
+    width: 100%;
     overflow: hidden;
     background-color: #0c6aed;
+    display: flex;
+    justify-content:space-between;
   }
   
-  .topnav a {
-    float: right;
+  .topnav #topnav {
+    float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 2vh;
+    
   }
   
   .topnav h1 {
     font-family: Arial, Helvetica, sans-serif;
     float: left;
-    color: black;
     text-align: center;
-    font-size: 3vh;
     margin-top: 5px;
     margin-left: 16px;
     margin-bottom: 5px;
@@ -119,6 +123,8 @@ h2{
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    max-width: 80%;
+    margin:auto;
   }
   .column {
     flex: 20%;
@@ -126,11 +132,12 @@ h2{
   }
   
   .column img {
+    max-width: 100%;
     margin-top: 8px;
     vertical-align: middle;
   }
   .container img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     display: flex;
 		flex-flow: row wrap;
@@ -142,18 +149,13 @@ h2{
   .container2 {
     position: relative;
     max-width: 80%;
-    
+    margin: auto;
   }
 
   .container2 img {
     max-width: 100%;
     height: auto;
   }
-
-  
-
-  
-
     #aside{
         display: inline-block;
         max-width: 100%;
@@ -165,7 +167,6 @@ h2{
     #asideHalf{
         display: inline-block;
         max-width: 50%;
-        
         float: left;
         
     }   
@@ -180,6 +181,8 @@ h2{
       overflow: hidden;
       background-color: #0c6aed;
       padding-left: 0px;
+      display: flex;
+      justify-content: space-between;
     }
     
     .undernav #Privacy {
@@ -207,7 +210,6 @@ h2{
       padding: 14px 16px;
       text-decoration: none;
       font-size: 2vh;
-      margin-right: 40%;
     }
     
     
