@@ -9,11 +9,11 @@ header{
   }
   
   #bigButton{
-  font-size: 4vh;
-  padding-top: 0%;
-  padding-bottom: 0%;
-  color: #f2f2f2;
-  text-decoration: none;
+    float: left;
+      color: #f2f2f2;
+      padding: 0.4rem 0.5rem;
+      text-decoration: none;
+      font-size: 1.5rem;
   }
   
   #large{
@@ -44,7 +44,6 @@ header{
   
   
   
-  
   .topnav {
     width: 100%;
     overflow: hidden;
@@ -52,23 +51,32 @@ header{
     display: flex;
     justify-content:space-between;
   }
+
+  .ButtonNav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+
   
   .topnav #topnav {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.1rem 0.3rem;
+    font-size: 1.1rem;
     text-decoration: none;
-    font-size: 2vh;
   }
   
   .topnav h1 {
     font-family: Arial, Helvetica, sans-serif;
     float: left;
     text-align: center;
-    margin-top: 5px;
-    margin-left: 16px;
-    margin-bottom: 5px;
+    margin-top: 0.1rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.2rem;
     font-weight: bold;
   }
   
@@ -93,7 +101,6 @@ header{
     height: auto;
   }
   
-  
   .undernav {
     overflow: hidden;
     background-color: #0c6aed;
@@ -101,32 +108,39 @@ header{
     display: flex;
     justify-content: space-between;
   }
-      
+  
   .undernav #Privacy {
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 2vh;
+    font-size: 1.1rem;
   }
-  
+
   .undernav #chiSiamo {
     float: right;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 2vh;
+    font-size: 1.1rem;
   }
-  
+
   .undernav #ParchiItalia {
     float: right;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 2vh;
+    font-size: 1.1rem;
+  }
+  
+  
+  
+  .undernav a:hover {
+    background-color: #ddd;
+    color: black;
   }
       
       
